@@ -21,8 +21,8 @@ function MovieList({ movies, searchValue, value }) {
                 movie.rating >= value
             )
             .map((movie) => (
-              <Col>
-                <MovieCard key={movie.id} movie={movie} />
+              <Col key={movie.id}>
+                <MovieCard movie={movie} />
               </Col>
             ))}
         </Row>
