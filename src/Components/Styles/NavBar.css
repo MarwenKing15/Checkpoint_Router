@@ -1,0 +1,9 @@
+.navLink {
+	color: white !important;
+	font-size: 20px;
+	margin: 0 5%;
+}
+
+.selectedLink {
+	color: black !important;
+}
